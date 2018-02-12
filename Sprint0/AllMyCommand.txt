@@ -1,0 +1,39 @@
+git init C:\Users\aly97\Sprint0
+
+git add Sprint 0
+
+git rm --cached Sprint0/SecondFile.txt
+
+git add Sprint0/SecondFile.txt
+
+git config --global user.email "aly97.judo@outlook.com"
+
+git commit -m "Sprint0"
+
+git remote add origin https://github.com/AliMohamedShaltout/Sprint0
+
+git push origin master
+
+aly97>echo > README.md
+
+git branch ReadMe
+
+git checkout ReadMe
+
+git add README.md
+
+git commit -m "Branch commit"
+
+git pull origin master
+
+git checkout master
+
+git merge ReadMe
+
+git push origin master
+
+git add Sprint0/AllMyCommand.txt
+
+git commit -m "AllMyCommand commit"
+
+git push origin master
